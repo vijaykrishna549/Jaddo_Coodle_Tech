@@ -1,0 +1,2186 @@
+
+body{
+    background-color:#E5E5E5;
+}
+.main-container{
+    /* display: flex; */
+    position: absolute;
+    width: 1160.58px;
+    height: 40px;
+    left: 140.92px;
+    top: 47px;
+    /* border:0.5px solid red; */
+}
+.main-logo{
+    position: absolute;
+    width: 114.91px;
+    height: 33.99px;
+    left: 140.92px;
+    top: 48.7px;
+    color: #000000;
+/* border:0.5px solid blue; */
+z-index: 1000;
+}
+.log{
+position: absolute;
+left: 215px;
+top:58px;
+}
+
+.destination{
+ position: absolute;
+width: 100px;
+height: 22px;
+left: 478px;
+top: 56px;
+
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+
+
+color: #212832;
+}
+
+.hotels{
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 633px;
+    top: 56px;
+    
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    /* 1st */
+    
+    color: #212832;
+}
+
+.flights{
+    position: absolute;
+    width: 53px;
+    height: 22px;
+    left: 748px;
+    top: 56px;
+    
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    /* 1st */
+    
+    color: #212832;
+}
+
+.bookings{
+    position: absolute;
+    width: 74px;
+    height: 22px;
+    left: 863px;
+    top: 56px;
+    
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+    
+    color: #212832;
+}
+.signup{
+position: absolute;
+width: 102px;
+height: 40px;
+left: 1119px;
+top: 47px;
+}
+
+.dropdown{
+    position: absolute;
+width: 23px;
+height: 22px;
+left: 1263px;
+top: 56px;
+
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 22px;
+color: #212832;
+}
+
+.drop-vector{
+    position: absolute;
+width: 9px;
+height: 4.5px;
+left: 1292.5px;
+top: 64.5px;
+
+/* 1st */
+
+/* border: 1px solid #212832; */
+
+}
+
+.img1{
+    position: absolute;
+width: 783.87px;
+height: 764px;
+left: 565px;
+top: 105px;
+/* border:1px solid red; */
+}
+
+.planes{
+    position: absolute;
+left: 50.16%;
+right: 40.94%;
+top: 5.23%;
+bottom: 93.31%;
+
+transform: matrix(0.72, 0, 0.37, 0.93, 0, 0);
+}
+
+.planes2{
+    position: absolute;
+width: 137.29px;
+height: 95.23px;
+left: 1182px;
+top: 280.43px;
+
+transform: rotate(-31.84deg);
+}
+
+.heading{
+    position: absolute;
+width: 545px;
+height: 267px;
+left: 150px;
+top: 271px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 84px;
+line-height: 89px;
+/* or 106% */
+
+letter-spacing: -0.04em;
+
+/* 1st */
+
+color: #181E4B;
+}
+
+.head-vector{
+    position: absolute;
+width: 385px;
+height: 12px;
+left: 393px;
+top: 340px;
+}
+
+
+.desc{
+    position: absolute;
+width: 477px;
+height: 90px;
+left: 148px;
+top: 568px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #5E6282;
+}
+
+.find-button{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 148px;
+    top: 692px;
+    
+    /* yellow */
+    
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+}
+
+.find-text{
+    position: absolute;
+    width: 117px;
+    height: 23px;
+    left: 175px;
+    top: 711px;
+    
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.play-icon{
+position: absolute;
+width: 165px;
+height: 52px;
+left: 342px;
+top: 680px;
+}
+
+.play-text{
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 435px;
+    top: 711px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #686D77;
+}
+.customization{
+    position: absolute;
+width: 140px;
+height: 27px;
+left: 1082px;
+top: 1293px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+/* text heading color */
+
+color: #1E1D4C;
+}
+
+.customization-text{
+    position: absolute;
+width: 181px;
+height: 78px;
+left: 1062px;
+top: 1335px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+
+.customization-icon{
+    position: absolute;
+width: 77px;
+height: 66px;
+left: 1125px;
+top: 1197px;
+
+}
+
+.localEvents{
+    position: absolute;
+width: 120px;
+height: 27px;
+left: 792px;
+top: 1293px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+/* text heading color */
+
+color: #1E1D4C;
+}
+
+.localEvents-text{
+    position: absolute;
+width: 181px;
+height: 78px;
+left: 763px;
+top: 1335px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.localEvents-icon{
+    position: absolute;
+width: 67px;
+height: 75px;
+left: 829px;
+top: 1184px;
+}
+
+
+.calculatedWeather{
+    position: absolute;
+    width: 190px;
+    height: 27px;
+    left: 154px;
+    top: 1293px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    /* text heading color */
+    
+    color: #1E1D4C;
+}
+
+.calculatedWeather-text{
+    position: absolute;
+    width: 181px;
+    height: 78px;
+    left: 159px;
+    top: 1335px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: center;
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+    
+}
+
+.calculatedWeather-icon{
+    position: absolute;
+    width: 92px;
+    height: 78px;
+    left: 207px;
+    top: 1186px;
+}
+
+.bestFlights-icon{
+    position: absolute;
+width: 166.87px;
+height: 153.33px;
+left: 466.21px;
+top: 1142.09px;
+z-index: 2;
+}
+.bestFlights{
+    position: absolute;
+    width: 111px;
+    height: 27px;
+    left: 491px;
+    top: 1293px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    /* text heading color */
+    
+    color: #1E1D4C;
+    z-index: 2;
+}
+
+.bestFlights-text{
+position: absolute;
+width: 181px;
+height: 78px;
+left: 461px;
+top: 1335px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+/* TEXT CLR */
+
+color: #5E6282;
+z-index: 2;
+}
+
+.bestFlights-rect{
+    position: absolute;
+    width: 267px;
+    height: 314px;
+    left: 417px;
+    top: 1144px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 36px;
+    z-index: 1;
+}
+
+.bestFlights-rect2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 382px;
+    top: 1391px;
+    z-index: 0;
+    
+    background: #DF6951;
+    border-radius: 30px 0px 10px;
+}
+
+.bestServices{
+    position: absolute;
+    width: 547px;
+    height: 65px;
+    left: 428px;
+    top: 1011px;
+    
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    /* 3rd */
+    
+    color: #14183E;
+}
+
+.catagory{
+
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    left: 652px;
+    top: 974px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.topDestination{
+    position: absolute;
+width: 418px;
+height: 65px;
+left: 490px;
+top: 1649px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+/* 3rd */
+
+color: #14183E;
+}
+
+.topDestinationSub{
+    position: absolute;
+width: 100px;
+height: 27px;
+left: 632px;
+top: 1614px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+/* TEXT CLR */
+
+color: #5E6282;
+
+}
+
+.destPrice{
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    left: 763px;
+    top: 2129px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    z-index: 2;
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.destDays{
+    position: absolute;
+    width: 94px;
+    height: 20px;
+    left: 578px;
+    top: 2169px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    /* identical to box height, or 20px */
+    
+    z-index: 2;
+    /* TEXT CLR */
+    
+    color: #5E6282;
+    
+}
+
+.destNav{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 543px;
+top: 2169px;
+
+z-index: 2;
+}
+
+.destLocation{
+    position: absolute;
+width: 100px;
+height: 22px;
+left: 543px;
+top: 2128px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+z-index: 2;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.londonRect{
+position: absolute;
+width: 315px;
+height: 130px;
+left: 523px;
+top: 2101px;
+border: 2px solid red;
+
+/* white */
+z-index: 1;
+
+background: #FFFFFF;
+border-radius: 0px 0px 24px 24px;
+}
+.london{
+    position: absolute;
+    width: 314px;
+    height: 457px;
+    left: 524px;
+    top: 1774px;
+    
+    background: url("/assets/playground_assets/rectangle142021-0s8g-400w.png");
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 24px;
+    border: 2px solid red;
+}
+
+.dest2Price{
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 403px;
+    top: 2129px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    z-index: 2;
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.dest2Days{
+    position: absolute;
+    width: 95px;
+    height: 20px;
+    left: 227px;
+    top: 2169px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    /* identical to box height, or 20px */
+    
+    
+    /* TEXT CLR */
+    z-index: 2;
+    color: #5E6282;
+}
+
+.dest2Nav{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 193px;
+    top: 2169px;
+
+    z-index: 2;
+}
+
+.dest2Location{
+    position: absolute;
+width: 107px;
+height: 22px;
+left: 193px;
+top: 2128px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+z-index: 2;
+/* or 22px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.romeRect{
+    position: absolute;
+width: 315px;
+height: 130px;
+left: 173px;
+top: 2101px;
+border: 1px solid black;
+z-index: 1;
+/* white */
+
+background: #FFFFFF;
+border-radius: 0px 0px 24px 24px;
+}
+
+.Rome{
+    position: absolute;
+width: 314px;
+height: 457px;
+left: 174px;
+top: 1774px;
+z-index: 0;
+
+background: url("/assets/playground_assets/rectangle142021-n2np-400w.png");
+filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+border-radius: 24px;
+}
+
+.dest3Price{
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    left: 1148px;
+    top: 2129px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    z-index: 2;
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.dest3Days{
+ position: absolute;
+width: 99px;
+height: 20px;
+left: 949px;
+top: 2169px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+z-index: 2;
+/* identical to box height, or 20px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+
+}
+
+.dest3Nav{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 918px;
+    top: 2169px;
+    z-index: 2;
+}
+
+.dest3Location{
+    position: absolute;
+    width: 98px;
+    height: 22px;
+    left: 918px;
+    top: 2129px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    z-index: 2;
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+    
+}
+
+.europeRect{
+    position: absolute;
+    width: 315px;
+    height: 130px;
+    left: 898px;
+    top: 2101px;
+    
+    /* white */
+    z-index: 1;
+    
+    background: #FFFFFF;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.Europe{
+    position: absolute;
+    width: 314px;
+    height: 457px;
+    left: 899px;
+    top: 1774px;
+    
+    background: url("/assets/playground_assets/rectangle142021-yakk-400w.png");
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 24px;
+    z-index: 0;
+}
+
+.destinationDecor{
+    position: absolute;
+width: 96px;
+height: 252px;
+left: 1179px;
+top: 1932px;
+
+/* text 2 */
+
+/* border: 1px solid #84829A; */
+}
+
+
+.makePayment-Icon{
+    position: absolute;
+width: 47px;
+height: 48px;
+left: 186px;
+top: 2736px;
+}
+
+.makePayment-head{
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: 254px;
+    top: 2732px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+    /* identical to box height, or 20px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.makePayment-desc{
+    position: absolute;
+width: 327px;
+height: 40px;
+left: 254px;
+top: 2756px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 124.5%;
+/* or 20px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+
+}
+
+
+
+.reachAirport-head{
+    position: absolute;
+    width: 254px;
+    height: 20px;
+    left: 254px;
+    top: 2844px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+    
+    color: #5E6282;
+}
+
+.reachAirport-desc{
+    position: absolute;
+    width: 327px;
+    height: 40px;
+    left: 254px;
+    top: 2869px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.5%;    
+    color: #5E6282;
+}
+
+
+.taxi-icon{
+    position: absolute;
+width: 47px;
+height: 48px;
+left: 186px;
+top: 2848px;
+}
+
+.chooseDestination-head{
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    left: 254px;
+    top: 2620px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+    /* identical to box height, or 20px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.chooseDestination-desc{
+    position: absolute;
+    width: 327px;
+    height: 40px;
+    left: 254px;
+    top: 2644px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.5%;
+    /* or 20px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.chooseDestination-icon{
+    position: absolute;
+width: 47px;
+height: 48px;
+left: 186px;
+top: 2624px;
+
+}
+
+
+.bookTrip-sub{
+    position: absolute;
+width: 126px;
+height: 27px;
+left: 189px;
+top: 2417px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+/* TEXT CLR */
+
+color: #5E6282;
+
+}
+
+
+.image-container{
+    position: absolute;
+    width: 485px;
+    height: 459px;
+    left: 815px;
+    top: 2436px;
+    border: 1px solid red;
+}
+
+.img2{
+    position: absolute;
+width: 485px;
+height: 400px;
+left: 815px;
+top: 2495px;
+border: 1px solid blue;
+}
+
+.tripHeart{
+    position: absolute;
+width: 20px;
+height: 18.58px;
+left: 1140px;
+top: 2844.71px;
+}
+
+.tripCalculator{
+    position: absolute;
+width: 263px;
+height: 129px;
+left: 1037px;
+top: 2714px;
+border: 1px solid red;
+}
+
+.tripBar{
+    position: absolute;
+    width: 156px;
+    height: 5px;
+    left: 1119px;
+    top: 2816px;
+    z-index: 2;
+}
+
+.ongoing{
+    position: absolute;
+width: 58px;
+height: 17px;
+left: 1119px;
+top: 2730px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 124.5%;
+z-index: 2;
+/* or 17px */
+
+letter-spacing: -0.035em;
+
+/* text 2 */
+
+color: #84829A;
+}
+
+.mm{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1057px;
+    top: 2732px;
+border: 1px solid green;    
+}
+
+.bookTrip-image{
+position: absolute;
+/* visibility: hidden; */
+clip-path: circle(50%);
+width: 74px;
+height: 66px;
+left: 1044px;
+top: 2731px;
+z-index: 1;
+background: url("/assets/image\ 32.png");
+}
+
+.tripsvg{
+    position: absolute;
+width: 74px;
+height: 66px;
+left: 1044px;
+/* border-radius: 50%; */
+top: 2732px;
+
+/* white */
+z-index: 2;
+
+background: #FFFFFF;
+opacity: 0.2;
+box-shadow: 1px 9px 6px rgba(105, 104, 104, 0.13);
+}
+
+.jj{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1057px;
+top: 2732px;
+
+/* white */
+z-index: 0;
+background: #FFFFFF;
+}
+
+.percentComplete{
+    position: absolute;
+width: 101px;
+height: 17px;
+left: 1117px;
+top: 2789px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 124.5%;
+/* or 17px */
+
+letter-spacing: -0.055em;
+
+z-index: 2;
+/* 1 */
+
+color: #8A79DF;
+}
+
+.tripTo{
+    position: absolute;
+width: 107px;
+height: 22px;
+left: 1118px;
+top: 2753px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+letter-spacing: -0.015em;
+z-index: 2;
+
+/* black */
+
+color: #080809;
+}
+
+.tripRect{
+    position: absolute;
+width: 263px;
+height: 129px;
+left: 1037px;
+top: 2714px;
+
+background: #FFFFFF;
+box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+border-radius: 18px;
+z-index: 0;
+}
+
+.tripLine{
+    position: absolute;
+width: 16px;
+height: 0px;
+left: 931px;
+top: 2738px;
+z-index: 2;
+/* text 2 */
+
+background: #84829A;
+/* text 2 */
+
+border: 1px solid #84829A;
+transform: rotate(90deg);
+}
+
+.tripGreece{
+    position: absolute;
+    z-index: 2;
+width: 134px;
+height: 22px;
+left: 840px;
+top: 2702px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+letter-spacing: 0.015em;
+
+/* black */
+
+color: #080809;
+}
+
+.greecePic{
+    position: absolute;
+width: 321px;
+height: 161px;
+left: 840px;
+top: 2515px;
+z-index: 2;
+background: url("/assets/Rectangle\ 17.png");
+border-radius: 24px;
+}
+
+.authName{
+    position: absolute;
+width: 138px;
+height: 20px;
+left: 944px;
+top: 2737px;
+z-index: 2;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+letter-spacing: -0.005em;
+
+/* text 2 */
+
+color: #84829A;
+
+}
+
+.greeceDate{
+    position: absolute;
+width: 88px;
+height: 20px;
+left: 840px;
+top: 2737px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+z-index: 2;
+/* identical to box height, or 20px */
+
+letter-spacing: -0.005em;
+
+/* text 2 */
+
+color: #84829A;
+}
+
+.peopleGoing{
+    position: absolute;
+width: 126px;
+height: 20px;
+left: 871px;
+top: 2844px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+z-index: 2;
+/* identical to box height, or 20px */
+
+letter-spacing: -0.02em;
+
+/* text 2 */
+
+color: #84829A;
+}
+
+.buildingGreece{
+    position: absolute;
+width: 16px;
+height: 16px;
+left: 856px;
+top: 2843px;
+z-index: 2;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.greeceOptions{
+    position: absolute;
+width: 139px;
+height: 36px;
+left: 843px;
+top: 2778px;
+z-index: 2;
+}
+
+.finalGreeceRect{
+    position: absolute;
+width: 370px;
+height: 400px;
+left: 815px;
+top: 2495px;
+z-index: 1;
+
+
+background: #FFFFFF;
+box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+border-radius: 26px;
+}
+
+.Group589{
+    position: absolute;
+width: 354px;
+height: 367px;
+left: 875px;
+top: 2436px;
+z-index: 1;
+
+opacity: 0.4;
+}
+
+.Group589svg{
+    position: absolute;
+width: 354px;
+height: 367px;
+left: 875px;
+top: 2436px;
+z-index: 0;
+
+background: #59B1E6;
+opacity: 0.8;
+filter: blur(75px);
+}
+
+.greeceHead{
+    position: absolute;
+width: 511px;
+height: 130px;
+left: 186px;
+top: 2459px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-transform: capitalize;
+
+/* 3rd */
+
+color: #14183E;
+
+}
+
+.testimonial{
+    
+position: absolute;
+width: 14px;
+height: 71.5px;
+left: 1337px;
+top: 3249.5px;
+z-index: 2;
+}
+
+.lahore{
+    position: absolute;
+width: 116px;
+height: 21px;
+left: 753px;
+top: 3333px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+z-index: 2;
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.test-Name{
+    position: absolute;
+width: 101px;
+height: 27px;
+left: 753px;
+top: 3301px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+z-index: 2;
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.test-image{
+    position: absolute;
+width: 68px;
+height: 68px;
+left: 682px;
+top: 3109px;
+z-index: 2;
+
+background: url("/assets/Test_Image.png");
+}
+
+.test-text{
+    position: absolute;
+width: 402px;
+height: 96px;
+left: 753px;
+top: 3171px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+z-index: 2;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.testRect{
+    position: absolute;
+width: 504px;
+height: 245px;
+left: 719px;
+top: 3143px;
+z-index: 0;
+
+
+background: #FFFFFF;
+box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+border-radius: 10px;
+}
+
+.test-position{
+    position: absolute;
+width: 127px;
+height: 21px;
+left: 803px;
+top: 3422px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.test-name{
+    position: absolute;
+width: 127px;
+height: 27px;
+left: 803px;
+top: 3389px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.dot-svg{
+    position: absolute;
+    width: 87px;
+height: 12px;
+left: 186px;
+top: 3365px;
+}
+
+.test-about{
+    position: absolute;
+width: 409px;
+height: 130px;
+left: 186px;
+top: 3153px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-transform: capitalize;
+
+/* 3rd */
+
+color: #14183E;
+
+}
+
+.test-sub{
+    position: absolute;
+width: 128px;
+height: 27px;
+left: 186px;
+top: 3118px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.logos{
+    position: absolute;
+width: 1073px;
+height: 162px;
+left: 186px;
+top: 3561px;
+
+}
+
+.ailtaliaLogo{
+    position: absolute;
+width: 94px;
+height: 21px;
+left: 1165px;
+top: 3632px;
+
+background: url('/assets/Ailtalia.png');
+mix-blend-mode: luminosity;
+}
+
+.qantasLogo{
+    position: absolute;
+    width: 162px;
+    height: 32px;
+    left: 904px;
+    top: 3628px;
+    
+    background: url('/assets/Qantas.png');
+    mix-blend-mode: luminosity;   
+}
+
+.expediaLogo{
+    position: absolute;
+    width: 162px;
+    height: 162px;
+    left: 656px;
+    top: 3561px;
+    
+    background: url('/assets/Expedia.png');
+}
+
+.jesterLogo{
+    position: absolute;
+    width: 172.86px;
+    height: 110px;
+    left: 393px;
+    top: 3588px;
+    
+    background: url('/assets/Jestar.png');
+    mix-blend-mode: luminosity;
+}
+
+
+.axonLogo{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 186px;
+    top: 3577px;
+    
+    background: url('/assets/axon.png');
+    mix-blend-mode: luminosity;
+}
+
+
+.subscribeIcon{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 1255px;
+top: 3834px;
+z-index: 2;
+}
+
+.subsMessage{
+    position: absolute;
+width: 859px;
+height: 108px;
+left: 291px;
+top: 3926px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 54px;
+/* or 164% */
+
+text-align: center;
+
+/* TEXT CLR */
+
+color: #5E6282;
+z-index: 2;
+}
+
+.subscribeButton{
+    position: absolute;
+    width: 180px;
+    height: 68px;
+    left: 832px;
+    top: 4108px;
+    z-index: 2;   
+}
+
+.yourEmail{
+    position: absolute;
+width: 421px;
+height: 68px;
+left: 387px;
+top: 4108px;
+z-index: 2;
+}
+
+.leftMaskGroup{
+position: absolute;
+width: 389.45px;
+height: 397.19px;
+left: 186px;
+top: 3978.73px;
+
+transform: rotate(90deg);
+}
+
+.rightMaskGroup{
+    position: absolute;
+    width: 284.8px;
+    height: 290.88px;
+    left: 1102.7px;
+    top: 3829.78px;
+}
+
+.subsRect{
+    position: absolute;
+width: 1170px;
+height: 407px;
+left: 186px;
+top: 3847px;
+
+/* light color */
+
+background: #DFD7F9;
+opacity: 0.2;
+border-radius: 20px 129px 20px 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.plusSvg{
+    position: absolute;
+width: 153px;
+height: 166px;
+left: 1251px;
+top: 4158px;
+}
+
+.copyrights{
+    position: absolute;
+width: 203px;
+height: 17px;
+left: 616px;
+top: 4678px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 124.5%;
+/* or 17px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.nav3{
+    position: absolute;
+width: 114px;
+height: 153px;
+left: 836px;
+top: 4441px;
+}
+
+.item1{
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    left: 836px;
+    top: 4572px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.item2{
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 836px;
+    top: 4537px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.item3{
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 836px;
+    top: 4501px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.item4{
+    position: absolute;
+    width: 55px;
+    height: 26px;
+    left: 836px;
+    top: 4441px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 124.5%;
+    /* or 26px */
+    
+    
+    /* black */
+    
+    color: #080809;
+}
+
+.nav2{
+    position: absolute;
+width: 89px;
+height: 151px;
+left: 656px;
+top: 4441px;
+}
+
+.nav2item1{
+    position: absolute;
+    width: 74px;
+    height: 22px;
+    left: 656px;
+    top: 4570px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.nav2item2{
+    position: absolute;
+    width: 48px;
+    height: 22px;
+    left: 656px;
+    top: 4535px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.nav2item3{
+
+    position: absolute;
+    width: 86px;
+    height: 22px;
+    left: 656px;
+    top: 4499px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.nav2item4{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 657px;
+    top: 4441px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 124.5%;
+    /* or 26px */
+    
+    
+    /* black */
+    
+    color: #080809;
+}
+.nav1{
+    position: absolute;
+width: 108px;
+height: 151px;
+left: 476px;
+top: 4441px;
+}
+
+.nav1item1{
+    position: absolute;
+    width: 61px;
+    height: 22px;
+    left: 476px;
+    top: 4570px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+
+.nav1item2{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 476px;
+    top: 4535px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+.nav1item3{
+    position: absolute;
+    width: 55px;
+    height: 22px;
+    left: 476px;
+    top: 4501px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    /* or 22px */
+    
+    
+    /* TEXT CLR */
+    
+    color: #5E6282;
+}
+.nav1item4{
+    position: absolute;
+    width: 108px;
+    height: 26px;
+    left: 476px;
+    top: 4441px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 124.5%;
+    /* or 26px */
+    
+    
+    /* black */
+    
+    color: #080809;
+}
+
+.companyDesc{
+    position: absolute;
+width: 207px;
+height: 133px;
+left: 186px;
+top: 4420px;
+}
+
+.companyAbout{
+    position: absolute;
+width: 207px;
+height: 48px;
+left: 186px;
+top: 4505px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 124.5%;
+/* or 16px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+
+}
+
+.companyLogo{
+    position: absolute;
+width: 152px;
+height: 66px;
+left: 186px;
+top: 4420px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 66px;
+/* identical to box height */
+
+
+/* 1st */
+
+color: #181E4B;
+}
+
+.playStore{
+    position: absolute;
+width: 100px;
+height: 35px;
+left: 1146px;
+top: 4553px;
+}
+
+.googlePlay{
+    position: absolute;
+width: 107px;
+height: 35px;
+left: 1032px;
+top: 4553px;
+}
+
+
+.discoverApp{
+    position: absolute;
+width: 173px;
+height: 25px;
+left: 1034px;
+top: 4512px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 124.5%;
+/* identical to box height, or 25px */
+
+letter-spacing: 0.005em;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+.instagram{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1115px;
+    top: 4455px;
+    z-index: 2;
+}
+
+.ee{
+    position: absolute;
+width: 45px;
+height: 45px;
+left: 1100px;
+top: 4441px;
+border-radius: 50%;
+
+/* angular */
+
+background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+
+}
+.fb{
+    position: absolute;
+width: 41px;
+height: 41px;
+left: 1034px;
+top: 4441px;
+}
+
+.twitter{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 1170px;
+    top: 4443px;
+    
+}
+
+.footerCopy{
+    position: absolute;
+width: 203px;
+height: 17px;
+left: 616px;
+top: 4678px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 124.5%;
+/* or 17px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+
