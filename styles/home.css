@@ -101,6 +101,7 @@ color: #212832;
     color: #212832;
 }
 .signup{
+    background-color: transparent;
 position: absolute;
 width: 102px;
 height: 40px;
