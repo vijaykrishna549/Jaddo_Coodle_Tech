@@ -656,7 +656,7 @@ width: 315px;
 height: 130px;
 left: 523px;
 top: 2101px;
-border: 2px solid red;
+/* border: 2px solid red; */
 
 /* white */
 z-index: 1;
@@ -674,7 +674,7 @@ border-radius: 0px 0px 24px 24px;
     background: url("/assets/playground_assets/rectangle142021-0s8g-400w.png");
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
     border-radius: 24px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .dest2Price{
@@ -754,7 +754,7 @@ width: 315px;
 height: 130px;
 left: 173px;
 top: 2101px;
-border: 1px solid black;
+/* border: 1px solid black; */
 z-index: 1;
 /* white */
 
@@ -1058,7 +1058,7 @@ color: #5E6282;
     height: 459px;
     left: 815px;
     top: 2436px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .img2{
@@ -1067,7 +1067,7 @@ width: 485px;
 height: 400px;
 left: 815px;
 top: 2495px;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 }
 
 .tripHeart{
@@ -1084,7 +1084,7 @@ width: 263px;
 height: 129px;
 left: 1037px;
 top: 2714px;
-border: 1px solid red;
+/* border: 1px solid red; */
 }
 
 .tripBar{
@@ -1124,7 +1124,7 @@ color: #84829A;
     height: 50px;
     left: 1057px;
     top: 2732px;
-border: 1px solid green;    
+/* border: 1px solid green;     */
 }
 
 .bookTrip-image{
